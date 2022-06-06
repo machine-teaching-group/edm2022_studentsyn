@@ -1,0 +1,18 @@
+pynb_checkpoints
+*.DS_Store
+*.idea
+*.pyc
+*__pychache__
+*.npy
+*.ipynb
+
+## Core latex/pdflatex auxiliary files:
+*.tex
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+~      
