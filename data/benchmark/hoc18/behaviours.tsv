@@ -1,0 +1,7 @@
+misconceptions	explanations
+mis_1	confusing left/right directions when turning or checking conditionals
+mis_2	following one of the wrong path segments
+mis_3	misunderstanding of IfElse structure functionality and writing the same blocks in both the execution branches
+mis_4	ignoring the IfElse structure when solving the task
+mis_5	ignoring the While structure when solving the task
+mis_6	attempting to solve the task by using only the basic action blocks in {turnLeft, turnRight, move}

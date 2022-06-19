@@ -1,0 +1,16 @@
+{
+  "type": "run",
+  "children": [
+    {
+      "type": "turn_right"
+    },
+    {
+      "type": "while",
+      "children": [
+        {
+          "type": "turn_left"
+        }
+      ]
+    }
+  ]
+}

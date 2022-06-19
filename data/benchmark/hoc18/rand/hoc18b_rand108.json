@@ -1,0 +1,31 @@
+{
+  "type": "run",
+  "children": [
+    {
+      "type": "move"
+    },
+    {
+      "type": "move"
+    },
+    {
+      "type": "turn_left"
+    },
+    {
+      "type": "while",
+      "children": [
+        {
+          "type": "turn_right"
+        },
+        {
+          "type": "turn_left"
+        },
+        {
+          "type": "turn_left"
+        },
+        {
+          "type": "move"
+        }
+      ]
+    }
+  ]
+}

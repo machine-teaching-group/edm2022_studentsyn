@@ -1,0 +1,27 @@
+{
+    "type" : "run",
+    "children": [
+        {
+            
+            "type" : "ifelse bool_path_left",
+            "children" : [
+                {
+                    "type" : "do",
+                    "children" : [
+                        {"type" : "move"},
+                        {"type" : "move"},
+                        {"type" : "move"},                        
+                        {"type" : "turn_left"}
+                    ]
+                },
+                {
+                    "type" : "else",
+                    "children" : [
+                        {"type" : "move"}
+                    ]
+                }
+            ]
+
+                }
+            ]
+}

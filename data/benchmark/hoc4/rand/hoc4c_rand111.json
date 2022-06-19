@@ -1,0 +1,35 @@
+{
+  "type": "run",
+  "children": [
+    {
+      "type": "turn_right"
+    },
+    {
+      "type": "turn_right"
+    },
+    {
+      "type": "move"
+    },
+    {
+      "type": "move"
+    },
+    {
+      "type": "move"
+    },
+    {
+      "type": "turn_right"
+    },
+    {
+      "type": "move"
+    },
+    {
+      "type": "turn_right"
+    },
+    {
+      "type": "move"
+    },
+    {
+      "type": "move"
+    }
+  ]
+}

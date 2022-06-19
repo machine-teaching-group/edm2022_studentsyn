@@ -1,0 +1,18 @@
+{
+    "type" : "run",
+    "children": [
+        {"type" : "move"}, 
+        {"type" : "move"}, 
+        {"type" : "turn_right"}, 
+        {"type" : "move"}, 
+        {"type" : "move"}, 
+        {"type" : "move"}, 
+        {"type" : "turn_right"}, 
+        {"type" : "move"}, 
+        {"type" : "move"}, 
+        {"type" : "move"}, 
+        {"type" : "move"}, 
+        {"type" : "move"}, 
+        {"type" : "move"}
+    ]
+}

@@ -1,0 +1,1699 @@
+[{
+    "code" : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                    {
+                        "type" : "ifelse bool_path_ahead",
+                        "children" : [
+                            {
+                                "type" : "do",
+                                "children" : [
+                                    {"type" : "move"}
+                                ]
+                            },
+                            {
+                                "type" : "else",
+                                "children" : [
+                                    {"type" : "turn_right"}
+                                ]
+                            }
+                        ]
+
+                    }
+                ]
+            } 
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 4, 
+    "tutor" : "TutorSS2"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                    {
+                        "type" : "ifelse bool_path_ahead",
+                        "children" : [
+                            {
+                                "type" : "do",
+                                "children" : [
+                                    {"type" : "move"}
+                                ]
+                            },
+                            {
+                                "type" : "else",
+                                "children" : [
+                                    {"type" : "turn_left"}
+                                ]
+                            }
+                        ]
+    
+                    }
+                ]
+            } 
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 0,
+    "tutor" : "TutorSS2"
+},
+{   
+    "code" : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                    {
+                        "type" : "ifelse bool_path_right",
+                        "children" : [
+                            {
+                                "type" : "do",
+                                "children" : [
+                                    {"type" : "turn_right"}
+                                ]
+                            },
+                            {
+                                "type" : "else",
+                                "children" : [
+                                    {"type" : "move"}
+                                ]
+                            }
+                        ]
+    
+                    }
+                ]
+            } 
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 1,     
+    "tutor" : "TutorSS2"
+},
+{
+    "code"     : {
+        "type" : "run",
+        "children": [
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"}
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a", 
+    "codeA" : 5,
+    "tutor" : "TutorSS2"        
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                    {
+                        "type" : "ifelse bool_path_ahead",
+                        "children" : [
+                            {
+                                "type" : "do",
+                                "children" : [
+                                    {"type" : "turn_right"}
+                                ]
+                            },
+                            {
+                                "type" : "else",
+                                "children" : [
+                                    {"type" : "turn_right"}
+                                ]
+                            }
+                        ]
+    
+                    },
+                   {"type" : "move"}
+    
+                ]
+            } 
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA"       : 2,
+    "tutor"       : "TutorSS2"
+},
+{
+    "code"  : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                   {"type" : "move"},
+                   {"type" : "turn_right"},
+                   {"type" : "move"},
+                   {"type" : "turn_right"},
+                   {"type" : "move"}
+                ]
+            }
+          ]
+    
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA"       : 3, 
+    "tutor": "TutorSS2"
+    
+},
+{
+    
+    "code" : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                    {
+                        "type" : "ifelse bool_path_right",
+                        "children" : [
+                            {
+                                "type" : "do",
+                                "children" : [
+                                    {"type" : "turn_right"}
+                                ]
+                            },
+                            {
+                                "type" : "else",
+                                "children" : [
+                                    {"type" : "move"}
+                                ]
+                            }
+                        ]
+    
+                    }
+                ]
+            } 
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 1, 
+    "tutor" : "TutorSS1"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                   {
+                        "type" : "ifelse bool_path_ahead",
+                        "children" : [
+                            {
+                                "type" : "do",
+                                "children" : [
+                                    {"type" : "turn_right"}
+                                ]
+                            },
+                            {
+                                "type" : "else",
+                                "children" : [
+                                    {"type" : "turn_right"}
+                                ]
+                            }
+                        ]
+    
+                   },
+                   {"type" : "move"}
+    
+                ]
+            } 
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 2, 
+    "tutor" : "TutorSS1"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"}
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 5, 
+    "tutor" : "TutorSS1"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "ifelse bool_path_ahead",
+                "children" : [
+                   {
+                         "type" : "do",
+                         "children" : [
+                            {"type" : "move"}
+                         ]
+                   },
+                   {
+                         "type" : "else",
+                         "children" : [
+                            {"type" : "turn_right"}
+                         ]
+                   }
+                ]
+             }
+          ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 4,
+    "tutor" : "TutorSS1"   
+},
+{
+ "code" : {
+    "type" : "run",
+    "children": [
+        {
+            "type" : "while",
+            "children" : [
+               {
+                    "type" : "ifelse bool_path_ahead",
+                    "children" : [
+                        {
+                            "type" : "do",
+                            "children" : [
+                                {"type" : "move"}
+                            ]
+                        },
+                        {
+                            "type" : "else",
+                            "children" : [
+                                {"type" : "turn_left"}
+                            ]
+                        }
+                    ]
+               }
+            ]
+        } 
+    ]
+},
+ "source_task" : "hoc18",
+ "target_task" : "hoc18a",
+ "codeA" : 0,
+ "tutor" : "TutorSS1"  
+},
+{
+    "code" : 
+        {
+            "type" : "run",
+            "children": [
+                {
+                    "type" : "while",
+                    "children" : [
+                    {"type" : "move"},
+                    {"type" : "move"},
+                    {"type" : "turn_right"},
+                    {"type" : "move"},
+                    {"type" : "move"},
+                    {"type" : "turn_right"},
+                    {"type" : "move"}
+                    ]
+                } 
+            ]
+        },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 3, 
+    "tutor" : "TutorSS1"
+    
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "turn_right"}
+                            ]
+                      }
+                   ]
+                },
+                {"type" : "move"}
+             
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 2, 
+    "tutor" : "TutorSS1"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"}
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 5, 
+    "tutor" : "TutorSS1"    
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+            {
+                "type" : "while",
+                "children" : [
+                   {"type" : "move"},
+                   {"type" : "move"},
+                   {"type" : "turn_left"},
+                   {"type" : "move"},
+                   {"type" : "move"},
+                   {"type" : "turn_right"},
+                   {"type" : "move"},
+                   {"type" : "move"}
+                ]
+            } 
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 3, 
+    "tutor" : "TutorSS1"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_ahead",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "turn_right"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 1, 
+    "tutor" : "TutorSS1"
+},
+{
+    "code" : 
+    {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_right"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_left"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 0,
+    "tutor" : "TutorSS1"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "ifelse bool_path_left",
+                "children" : [
+                   {
+                         "type" : "do",
+                         "children" : [
+                            {"type" : "turn_left"}
+                         ]
+                   },
+                   {
+                         "type" : "else",
+                         "children" : [
+                            {"type" : "move"}
+                         ]
+                   }
+                ]
+             }
+          ]
+    },
+    "source_task" : "hoc18", 
+    "target_task" : "hoc18b",
+    "codeA" : 4, 
+    "tutor" : "TutorSS1"      
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_left"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "turn_left"}
+                            ]
+                      }
+                   ]
+                },
+                {"type" : "move"}
+             
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 2,
+    "tutor" : "TutorSS1"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {
+                "type" : "ifelse bool_path_left",
+                      "children" : [
+                         {
+                               "type" : "do",
+                               "children" : [
+                                  {"type" : "turn_left"}
+                               ]
+                         },
+                         {
+                               "type" : "else",
+                               "children" : [
+                                  {"type" : "move"}
+                               ]
+                         }
+                      ]
+                   
+             }         
+          ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 4, 
+    "tutor" : "TutorSS1"    
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_ahead",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "turn_left"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18", 
+    "target_task" : "hoc18c",
+    "codeA" : 1,
+    "tutor"  : "TutorSS1"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18", 
+    "target_task" : "hoc18c",
+    "codeA" : 0, 
+    "tutor" : "TutorSS1"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+    
+          {
+             "type" : "while",
+             "children" : [
+                {"type" : "move"},
+                {"type" : "move"},
+                {"type" : "move"},
+                {"type" : "move"},
+                {"type" : "turn_left"},
+                {"type" : "move"},
+                {"type" : "move"},
+                {"type" : "move"},
+                {"type" : "move"}
+             ]
+          }
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 3, 
+    "tutor" : "TutorSS1"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+    
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"}
+          ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 5, 
+    "tutor" : "TutorSS1"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_ahead",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "turn_left"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 0, 
+    "tutor" : "TutorSS3"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_right"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_left"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 0, 
+    "tutor" : "TutorSS3"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 0, 
+    "tutor" : "TutorSS3"    
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+              {
+                 "type" : "while",
+                 "children" : [
+                    {"type" : "move"},
+                    {"type" : "turn_right"},
+                    {"type" : "move"},
+                    {"type" : "turn_right"},
+                    {"type" : "move"}
+                 ]
+              }         
+        ]
+     },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 3, 
+    "tutor" : "TutorSS3"
+
+},
+{
+    "code" :{
+        "type" : "run",
+        "children": [
+              {
+                 "type" : "while",
+                 "children" : [
+                    {"type" : "move"},
+                    {"type" : "turn_left"},
+                    {"type" : "move"},
+                    {"type" : "turn_right"},
+                    {"type" : "move"}
+                 ]
+              }         
+        ]
+     },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 3, 
+    "tutor" : "TutorSS3"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+              {
+                 "type" : "while",
+                 "children" : [
+                    {"type" : "move"},
+                    {"type" : "turn_left"},
+                    {"type" : "move"},
+                    {"type" : "turn_left"},
+                    {"type" : "move"},
+                    {"type" : "turn_left"},
+                    {"type" : "move"},
+                    {"type" : "turn_left"},
+                    {"type" : "move"}
+                ]
+              }         
+        ]
+     },
+     "source_task" : "hoc18",
+     "target_task" : "hoc18c",
+     "codeA" : 3, 
+     "tutor" : "TutorSS3"
+
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 1, 
+    "tutor" : "TutorSS3"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 1, 
+    "tutor" : "TutorSS3"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_left"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 1, 
+    "tutor" : "TutorSS3"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+    
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"}
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 5, 
+    "tutor" : "TutorSS3"                  
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+    
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_right"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"}
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 5, 
+    "tutor" : "TutorSS3"  
+},
+{
+
+    "code" : {
+        "type" : "run",
+        "children": [
+    
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"},
+             {"type" : "move"},
+             {"type" : "turn_left"},
+             {"type" : "move"}
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 5, 
+    "tutor" : "TutorSS3"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "ifelse bool_path_ahead",
+             "children" : [
+                {
+                      "type" : "do",
+                      "children" : [
+                         {"type" : "move"}
+                      ]
+                },
+                {
+                      "type" : "else",
+                      "children" : [
+                         {"type" : "turn_right"}
+                      ]
+                }
+             ]
+          }
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 4, 
+    "tutor" : "TutorSS3"
+    
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "ifelse bool_path_right",
+             "children" : [
+                {
+                      "type" : "do",
+                      "children" : [
+                         {"type" : "turn_right"},
+                         {"type" : "move"}
+                      ]
+                },
+                {
+                      "type" : "else",
+                      "children" : [
+                         {"type" : "move"}
+                      ]
+                }
+             ]
+          }
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 4, 
+    "tutor" : "TutorSS3"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "ifelse bool_path_left",
+             "children" : [
+                {
+                      "type" : "do",
+                      "children" : [
+                         {"type" : "turn_left"},
+                         {"type" : "move"}
+                      ]
+                },
+                {
+                      "type" : "else",
+                      "children" : [
+                         {"type" : "move"}
+                      ]
+                }
+             ]
+          }
+        ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 4, 
+    "tutor" : "TutorSS3"
+
+},
+{   "code" :
+    {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_ahead",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "turn_right"}
+                            ]
+                      }
+                   ]
+                },
+                {"type" : "move"}
+             
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18a",
+    "codeA" : 2, 
+    "tutor" : "TutorSS3"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                },
+                {"type" : "turn_right"}
+             
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 2, 
+    "tutor" : "TutorSS3"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                },
+                {"type" : "turn_left"}
+             
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 2, 
+    "tutor" : "TutorSS3"    
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_right"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_left"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 0, 
+    "tutor" : "TutorSS2"    
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 1, 
+    "tutor" : "TutorSS2"    
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_right"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"}
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 5, 
+    "tutor" : "TutorSS2"    
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "ifelse bool_path_right",
+             "children" : [
+                {
+                      "type" : "do",
+                      "children" : [
+                         {"type" : "turn_right"},
+                         {"type" : "move"}
+                      ]
+                },
+                {
+                      "type" : "else",
+                      "children" : [
+                         {"type" : "move"}
+                      ]
+                }
+             ]
+          }          
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 4, 
+    "tutor" : "TutorSS2"    
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {
+             "type" : "ifelse bool_path_left",
+             "children" : [
+                {
+                      "type" : "do",
+                      "children" : [
+                         {"type" : "turn_left"},
+                         {"type" : "move"}
+                      ]
+                },
+                {
+                      "type" : "else",
+                      "children" : [
+                         {"type" : "move"}
+                      ]
+                }
+             ]
+          }          
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 4, 
+    "tutor" : "TutorSS2"    
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_left"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 1, 
+    "tutor" : "TutorSS2"    
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {"type" : "move"}
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 5, 
+    "tutor" : "TutorSS2" 
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "turn_right"},
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                }         
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 0, 
+    "tutor" : "TutorSS2"
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+           {
+              "type" : "while",
+              "children" : [
+                 {"type" : "move"},
+                 {"type" : "turn_left"},
+                 {"type" : "move"},
+                 {"type" : "turn_left"},
+                 {"type" : "move"}         
+              ]
+              
+           }         
+        ]
+     },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 3, 
+    "tutor" : "TutorSS2"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+           {
+              "type" : "while",
+              "children" : [
+                 {"type" : "move"},
+                 {"type" : "turn_left"},
+                 {"type" : "move"},
+                 {"type" : "turn_right"},
+                 {"type" : "move"}         
+              ]
+              
+           }         
+        ]
+     },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 3, 
+    "tutor" : "TutorSS2"
+     
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_left",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                },
+                {"type" : "turn_left"},
+                {"type" : "move"}
+             
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18c",
+    "codeA" : 2, 
+    "tutor" : "TutorSS2"
+
+},
+{
+    "code" : {
+        "type" : "run",
+        "children": [
+    
+          {"type" : "move"},
+          {"type" : "move"},
+          {"type" : "turn_left"},
+          {
+             "type" : "while",
+             "children" : [
+                {
+                   "type" : "ifelse bool_path_right",
+                   "children" : [
+                      {
+                            "type" : "do",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      },
+                      {
+                            "type" : "else",
+                            "children" : [
+                               {"type" : "move"}
+                            ]
+                      }
+                   ]
+                },
+                {"type" : "turn_right"},
+                {"type" : "move"}
+             
+             ]
+          } 
+       ]
+    },
+    "source_task" : "hoc18",
+    "target_task" : "hoc18b",
+    "codeA" : 2, 
+    "tutor" : "TutorSS2"
+    
+}
+]
+
