@@ -1,6 +1,7 @@
 from copy import deepcopy 
 import numpy as np 
 import json 
+import os 
 
 import pandas as pd 
 import argparse
@@ -114,13 +115,17 @@ def generate_random_codes_hoc4():
     np.random.seed(args.seed)
 
     save_dir = BENCHMARK_DIR + f'/hoc4/rand/'
+
+    os.makedirs(save_dir, exist_ok=True)
+
+
     target_tasks = [f"hoc4{indicator}" for indicator in ['','a','b','c']]
 
     random_code_df_rows = []
     random_codes = []
     random_codes_idx = 1
 
-    num_random_per_dist = 10
+    num_random_per_dist = args.random_per_type
 
     p_add = {"move" : 3/5, "turn_left" : 1/5, "turn_right" : 1/5}            
     
@@ -170,4 +175,7 @@ def generate_random_codes_hoc4():
 
 
 if __name__ == '__main__' : 
+    '''
+        to generate new random codes, first delete the folder in data/benchmark/hoc4/rand/
+    '''
     generate_random_codes_hoc4()

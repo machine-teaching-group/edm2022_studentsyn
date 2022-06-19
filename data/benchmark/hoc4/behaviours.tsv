@@ -1,7 +1,7 @@
 misconceptions	explanations
-mis_1	confusing left/right directions when turning,
-mis_2	partially solving the task in terms of getting closer to the "goal"
+mis_1	confusing left/right directions when turning
+mis_2	partially solving the task in terms of getting closer to the goal
 mis_3	misunderstanding of turning functionality and writing repetitive turn commands
 mis_4	adding more than the correct number of required move commands
 mis_5	forgetting to include some turns needed in the solution
-mis_6	attempting to randomly solve the task by adding lots of block_paths
+mis_6	attempting to randomly solve the task by adding lots of blocks

@@ -99,7 +99,6 @@ def read_stu(benchmark_data_path):
     benchmark_students_df = pd.read_csv(benchmark_data_path + 'info.tsv', sep='\t+', engine = 'python')
     benchmark_students_df['stu'] = benchmark_data_path + '/stu/' + benchmark_students_df['stu'] + '.json'
     benchmark_students_df = benchmark_students_df.rename(columns = {"stu" : "code_path"})    
-    benchmark_students_df['notes'] = 'stu'
 
     return benchmark_students_df
 

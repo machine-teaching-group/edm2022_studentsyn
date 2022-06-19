@@ -8,7 +8,7 @@ from .utils_random import calculate_edit_distance, action_tokens, conditions, re
 from code.utils.convert import ast_code_to_token_list, token_list_to_benchhmark_ast
 from .generate_random_hoc4 import edit_code_hoc4
 import argparse
-
+import os 
 
 def util_edit_hoc18(sol_code_edited, num_edits, 
 
@@ -141,6 +141,10 @@ def generate_random_codes_hoc18():
 
     source_task = 'hoc18'
     save_dir = BENCHMARK_DIR + f'/{source_task}/rand/'
+
+    os.makedirs(save_dir, exist_ok=True)
+
+
     target_tasks = [f"{source_task}{indicator}" for indicator in ['','a','b','c']]
 
     random_codes_idx = 1
@@ -235,4 +239,7 @@ def generate_random_codes_hoc18():
 
 
 if __name__ == '__main__' : 
+    '''
+        to generate new random codes, first delete the folder in data/benchmark/hoc18/rand/
+    '''
     generate_random_codes_hoc18()
