@@ -1,3 +1,9 @@
+## added data, outputs 
+data/embD/*
+data/student/*
+data/neurSS/*
+outputs/*
+
 pynb_checkpoints
 *.DS_Store
 *.idea
